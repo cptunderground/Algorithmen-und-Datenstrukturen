@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+task bstExperiments(type: JavaExec) {
+    main = "exercise6.BSTExperiments"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+
+task SymbolTableExperiments(type: JavaExec) {
+    main = "exercise6.SymbolTableExperiments"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+mainClassName = 'Main'

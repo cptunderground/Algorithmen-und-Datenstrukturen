@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blatt05.iml" filepath="$PROJECT_DIR$/blatt05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blatt05_main.iml" filepath="$PROJECT_DIR$/.idea/modules/blatt05_main.iml" group="blatt05" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blatt05_test.iml" filepath="$PROJECT_DIR$/.idea/modules/blatt05_test.iml" group="blatt05" />
+    </modules>
+  </component>
+</project>

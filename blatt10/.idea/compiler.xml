@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="blatt10_(2)_main" target="1.8" />
+      <module name="blatt10_(2)_test" target="1.8" />
+      <module name="blatt10_-K&amp;J_main" target="1.8" />
+      <module name="blatt10_-K&amp;J_test" target="1.8" />
+      <module name="blatt10_-KJ_main" target="1.8" />
+      <module name="blatt10_-KJ_test" target="1.8" />
+      <module name="blatt10_main" target="1.8" />
+      <module name="blatt10_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

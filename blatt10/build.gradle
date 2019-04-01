@@ -1,0 +1,32 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'checkstyle'
+
+repositories {
+    mavenCentral()
+}
+
+run {
+standardInput = System.in
+}
+
+
+task runArbitrage(type: JavaExec) {
+classpath = sourceSets.main.runtimeClasspath
+main = 'Arbitrage'
+standardInput = System.in
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+checkstyle { 
+    toolVersion = '8.5'
+}
+
+mainClassName = 'Main'
+
+compileJava {
+    options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+}

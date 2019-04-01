@@ -1,0 +1,9 @@
+﻿Welche der Sequenzen sind Möglich?
+
+Schreiben Sie hier für alle möglichen Sequenzen die Sequenz von enqueue und dequeue Operationen hin.
+
+4.1.b.a
+queue all - dequeue all
+4.1.b.b.c.d
+gehen nicht, architektur einer queue, 0 muss zuerst sein.
+

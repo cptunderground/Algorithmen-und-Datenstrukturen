@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+
+task sortExperiments(type: JavaExec) {
+    main = "exercise11.SortExperiments"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+repositories {
+    mavenCentral()
+}
+
+run {
+standardInput = System.in
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+mainClassName = 'Main'
